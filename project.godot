@@ -14,6 +14,10 @@ config/name="godot-high-level-net"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+HighLevelNetworkHandler="*uid://d3um7vxagi8va"
+
 [display]
 
 window/stretch/mode="canvas_items"

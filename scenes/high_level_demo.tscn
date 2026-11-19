@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ccy26pis3gmmk"]
+
+[ext_resource type="PackedScene" uid="uid://b70pu45u1jcnk" path="res://scenes/net_ui.tscn" id="1_tmha7"]
+[ext_resource type="Script" uid="uid://c7nn6xv1se5w4" path="res://scripts/high_level_multiplayer_spawner.gd" id="2_cm0yk"]
+
+[node name="HighLevelDemo" type="Node2D" unique_id=886146864]
+
+[node name="NetUI" parent="." unique_id=971387210 instance=ExtResource("1_tmha7")]
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=553065090]
+script = ExtResource("2_cm0yk")
