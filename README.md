@@ -1,2 +1,2 @@
-# godot-high-level-net
+# Godot Multiplayer
 Godot high level networking API demo.
